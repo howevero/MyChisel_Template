@@ -20,7 +20,7 @@ import org.scalatest.matchers.must.Matchers
   * }}}
   * Testing from mill:
   * {{{
-  * mill %NAME%.test.testOnly gcd.GCDSpec
+  * mill MyChisel_Template.test.testOnly gcd.GCDSpec
   * }}}
   */
 class GCDSpec extends AnyFreeSpec with Matchers with ChiselSim {
